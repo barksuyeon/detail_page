@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'BookkMyungjo-Bd';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'BookkMyungjo-Bd';
+}
+
+/* _____________________________________________________________ */
+header {
+    text-align: center;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    height: 65px;
+    border-bottom: 1px solid #f3517c21;
+}
+
+nav ul {
+    font-family: 'Ibarra Real Nova';
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* 상단 메뉴 컬러 */
+nav li a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #424242;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.bg-nav {
+    background: #fff;
+    border-bottom: 1px solid #f3f3f3
+}
+
+.bg-nav ul {
+    padding: 10px 0;
+}
+
+a:focus {
+    color: #4e4e4e;
+   
+}
+
+ul li:nth-child(1) a:hover {
+    color: #2f74f5;
+}
+
+ul li:nth-child(2) a:hover {
+    color: #f3517c;
+}
+ul li:nth-child(3) a:hover {
+    color: #ff7a30;
+}
+ul li:nth-child(4) a:hover {
+    color: #2f74f5;
+;
+}
+ul li:nth-child(5) a:hover {
+    color: #f3517c;
+}
+
+a.active {
+    color: #ce6a69;
+}
+
+
+.contents {
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+img{
+    width: 800px;
+}
